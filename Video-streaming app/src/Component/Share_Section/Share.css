@@ -1,0 +1,71 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.iconContainer
+{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: -50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.iconContainer img
+{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.iconContainer #insta:hover , #meta:hover , #reddit:hover , #thread:hover , #x:hover
+{
+    height: 70px;
+    width: 70px;
+    border: 2px soli black;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(147, 115, 56, 0.521);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#insta
+{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border-radius: 50%;
+}
+#meta
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#reddit
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
+#thread
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
+#x
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
