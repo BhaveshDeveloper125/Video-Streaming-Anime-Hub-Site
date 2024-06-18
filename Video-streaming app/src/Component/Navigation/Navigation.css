@@ -1,0 +1,96 @@
+table tr
+{
+    height: 70px;
+    /* position: absolute; */
+}
+table
+{
+    background: linear-gradient(135deg , rgba(255 , 255 , 255 , 0.1) , rgba(255 , 255 , 255 , 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid  rgba(255 , 255 , 255 , 0);
+    box-shadow: 0 8px 32px 0 rgba(0 , 0 , 0 , 0.37);
+    position: absolute;
+    top: 2%;
+}
+
+tr td:nth-child(-n+3) 
+{
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+tr td:nth-child(-n+3):hover
+{
+    color: orange;
+}
+
+tr td:nth-child(4)
+{
+    padding-left: 400px;
+}
+
+tr td:nth-child(5)
+{
+    padding-left: -10px;
+} 
+
+#loginbtn
+{
+    height: 50px;
+    width: 100px;
+    border: 1px solid rgb(235, 164, 21);
+    border-radius: 7px;
+    font-size: 25px;
+    color: azure;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(235, 164, 21);
+    margin-left: 110px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+#loginbtn:hover
+{
+    background-color: transparent;
+    color: rgb(235, 164, 21);
+    border: 1px solid rgb(235, 164, 21);
+}
+
+input[type='search']
+{
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+
+input[type='search']:focus
+{
+    background-color: rgba(0, 0, 0, 0.100);
+    outline: none;
+    border-bottom: 1px solid aliceblue;
+}
+
+input[type='search']::placeholder
+{
+    font-size: 25px;
+    color: rgba(240, 248, 255, 0.568);
+}
