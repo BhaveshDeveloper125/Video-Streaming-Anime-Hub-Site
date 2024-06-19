@@ -1,12 +1,58 @@
+.cardcontainer
+{
+    height: 200px;
+    width: 1515px;
+    transition: scroll-left 2s ease;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
 
-/* 
-.card:hover .info
+.card 
+{
+    height: 200px;   
+    width: 300px;
+    border: 2px solid aliceblue;
+    margin-right: 25px;
+    position: relative;
+    /* top: 50px; */
+}
+
+.card img
+{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.information
 {
     height: 200px;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.500);
     position: relative;
     top: -50%;
-} */
+    display: none;
+}
+
+.card:hover .information
+{
+    display: block;
+    position: relative;
+    top: -100%;
+    animation: changePositions 0.5s ease-in-out ;
+}
+
+h1 , h4
+{
+    color: aliceblue;
+}
+
+.cardcontainer::-webkit-scrollbar
+{
+    display: none;
+}
+
 
 @keyframes changePositions 
 {
@@ -24,3 +70,38 @@
     }    
 }
 
+.buttonSection
+{
+    height: 80px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.previous  , .nextt 
+{
+    height: 50px;
+    width: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid aliceblue;
+    margin-right: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.previous:hover  , .nextt:hover 
+{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    background-color: rgba(255, 166, 0, 0.500);
+    color: black;
+    font-size: 50px;
+}
