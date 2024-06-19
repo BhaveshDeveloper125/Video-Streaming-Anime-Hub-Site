@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Slider from './Component/Slider/Slider'
 import Navigation from './Component/Navigation/Navigation'
 import Share from './Component/Share_Section/Share'
+import Cards from './Component/Cards/Cards'
 
 
 function App() 
@@ -13,6 +14,7 @@ function App()
       <Slider/>
       <Navigation/>
       <Share/>
+      <Cards/>
     </>
   )
 }
