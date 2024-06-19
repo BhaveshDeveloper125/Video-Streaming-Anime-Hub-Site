@@ -53,14 +53,6 @@ function Cards()
             </div>
 
             <br /><br /><br /><br /><br /><br /><br />
-            <div className="cardcontainer1">
-                <div className="contenet"></div>
-                <div className="contenet"></div>
-                <div className="contenet"></div>
-                <div className="contenet"></div>
-                <div className="contenet"></div>
-                <div className="contenet"></div>
-            </div>
             <br /><br /><br /><br /><br />
         </>
     );
