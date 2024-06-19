@@ -25,6 +25,9 @@ function Cards()
     }
     return(
         <>
+            <br /><br /><br />
+            <h1 className="trending">Top Trending</h1>
+            <br /><br />
             <div className="cardcontainer">
                 <div className="card">
                     <img src={ichigo} alt="" />

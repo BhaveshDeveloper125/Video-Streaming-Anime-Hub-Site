@@ -6,6 +6,7 @@
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
+    cursor: pointer;
 }
 
 .card 
@@ -15,7 +16,8 @@
     border-radius: 7px;
     margin-right: 25px;
     position: relative;
-    box-shadow: 7px 20px 7px  rgba(0, 0, 0, 0.500);
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.700);
+    cursor: pointer;
 }
 
 .card img
@@ -24,6 +26,7 @@
     width: 300px;
     border-radius: 7px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .information
@@ -35,6 +38,7 @@
     position: relative;
     top: -50%;
     display: none;
+    cursor: pointer;
 }
 
 .card:hover .information
@@ -106,4 +110,14 @@ h1 , h4
     background-color: rgba(255, 166, 0, 0.500);
     color: black;
     font-size: 50px;
+}
+
+.trending
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: wavy;
+    color: rgb(130, 103, 35);
+    text-align: center;
 }
