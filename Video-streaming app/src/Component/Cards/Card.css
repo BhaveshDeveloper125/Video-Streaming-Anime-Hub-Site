@@ -80,7 +80,6 @@ h1 , h4
 {
     height: 80px;
     position: relative;
-    top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

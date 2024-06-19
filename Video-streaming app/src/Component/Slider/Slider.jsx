@@ -60,6 +60,7 @@ function Slider()
                     <button className="next" onClick={Next}> &gt; </button>
                 </div>
             </div>
+            <br /><br />
         </>
     );
 }
