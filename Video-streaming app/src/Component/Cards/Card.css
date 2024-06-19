@@ -1,6 +1,6 @@
 .cardcontainer
 {
-    height: 200px;
+    height: 220px;
     width: 1515px;
     transition: scroll-left 2s ease;
     display: flex;
@@ -12,16 +12,17 @@
 {
     height: 200px;   
     width: 300px;
-    border: 2px solid aliceblue;
+    border-radius: 7px;
     margin-right: 25px;
     position: relative;
-    /* top: 50px; */
+    box-shadow: 7px 20px 7px  rgba(0, 0, 0, 0.500);
 }
 
 .card img
 {
     height: 200px;
     width: 300px;
+    border-radius: 7px;
     object-fit: cover;
 }
 
@@ -29,6 +30,7 @@
 {
     height: 200px;
     width: 100%;
+    border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.500);
     position: relative;
     top: -50%;
