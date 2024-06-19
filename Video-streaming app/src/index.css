@@ -1,4 +1,4 @@
-body
+body , *
 {
     margin: 0;
     padding: 0;
@@ -8,6 +8,13 @@ body
 .firstbg
 {
     background-image: url(./src/assets/wallpapar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secondbg
+{
+    background-image: url(./src/assets/Zenitsu.png);
     background-size: cover;
     background-attachment: fixed;
 }

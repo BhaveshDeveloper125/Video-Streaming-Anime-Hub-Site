@@ -3,6 +3,7 @@ import Slider from './Component/Slider/Slider'
 import Navigation from './Component/Navigation/Navigation'
 import Share from './Component/Share_Section/Share'
 import Cards from './Component/Cards/Cards'
+import Mostviewed from './Component/MostViewed/Mostviewed'
 
 
 function App() 
@@ -16,6 +17,10 @@ function App()
         <Navigation/>
         <Share/>
         <Cards/>
+      </div>
+
+      <div className="secondbg">
+        <Mostviewed/>
       </div>
     </>
   )
