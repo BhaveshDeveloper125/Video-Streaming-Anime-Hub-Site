@@ -1,0 +1,67 @@
+.Samplecard 
+{
+    height: 200px;   
+    width: 300px;
+    border-radius: 7px;
+    margin-right: 25px;
+    position: relative;
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.700);
+    cursor: pointer;
+}
+
+.Samplecard img
+{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.Sampleinformation
+{
+    height: 200px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.500);
+    display: none;
+    cursor: pointer;
+}
+
+.Samplecard:hover .Sampleinformation
+{
+    display: block;
+    position: relative;
+    top: -100%;
+    animation: changePositions 0.5s ease-in-out ;
+}
+
+@keyframes infoAnimation 
+{
+    from
+    {
+        opacity: 0;
+        transform: translate(0 , 100px);
+    }    
+    to
+    {
+        opacity: 1;
+        transform: translate(0 , 0);
+    }
+}
+
+
+
+@keyframes changePositions 
+{
+    /* animation: changePositions 0.5s ease-in-out ; */
+
+    from
+    {
+        opacity: 0;
+        transform: translate(0 , 100px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translate(0);
+    }    
+}

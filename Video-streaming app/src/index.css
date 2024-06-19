@@ -4,3 +4,10 @@ body
     padding: 0;
     box-sizing: border-box;
 }
+
+.firstbg
+{
+    background-image: url(./src/assets/wallpapar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

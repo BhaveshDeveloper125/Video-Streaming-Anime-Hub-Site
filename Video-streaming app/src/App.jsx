@@ -11,10 +11,12 @@ function App()
 
   return (
     <>
-      <Slider/>
-      <Navigation/>
-      <Share/>
-      <Cards/>
+      <div className="firstbg">
+        <Slider/>
+        <Navigation/>
+        <Share/>
+        <Cards/>
+      </div>
     </>
   )
 }
