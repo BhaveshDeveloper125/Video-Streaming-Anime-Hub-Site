@@ -2,15 +2,49 @@
 {
     height: fit-content;
     width: 40%;
-    border: 2px solid white;
     background: linear-gradient(135deg , rgba(255 , 255 , 255 , 0.1) , rgba(255 , 255 , 255 , 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0 , 0 , 0 , 0.37);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.anotherbox2
+{
+    height: fit-content;
+    width: 40%;
+    background: linear-gradient(135deg , rgba(255 , 255 , 255 , 0.1) , rgba(255 , 255 , 255 , 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 , 0 , 0 , 0.37);
+    border-radius: 16px;
+    margin-left: 20%;
+    overflow: hidden;
 }
 
-.anotherbox table tr td h1
+.maintitle
 {
     color: black;
+}
+
+table tr td h2
+{
+    color: aliceblue;
+    text-align: center;
+    padding-left: 200px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+table tr td h2:hover 
+{
+    color: #26355D;
+}
+
+.viewedtitle , .populartitle
+{
+    width: fit-content;
+    position: relative;
+    left: 25%;
 }
 

@@ -23,6 +23,7 @@
     width: 100%;
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.500);
+    color: aliceblue;
     display: none;
     cursor: pointer;
 }

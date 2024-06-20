@@ -17,4 +17,5 @@ body , *
     background-image: url(./src/assets/Zenitsu.png);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
 }
