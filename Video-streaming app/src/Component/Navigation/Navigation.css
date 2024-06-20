@@ -1,8 +1,8 @@
-table tr
+.tableraw
 {
     height: 70px;
 }
-table
+.tbl
 {
     background: linear-gradient(135deg , rgba(255 , 255 , 255 , 0.1) , rgba(255 , 255 , 255 , 0));
     backdrop-filter: blur(10px);
@@ -13,7 +13,7 @@ table
     top: 2%;
 }
 
-tr td:nth-child(-n+3) 
+.tableraw td:nth-child(-n+3) 
 {
     width: 200px;
     color: white;
@@ -24,17 +24,17 @@ tr td:nth-child(-n+3)
     cursor: pointer;
 }
 
-tr td:nth-child(-n+3):hover
+.tableraw td:nth-child(-n+3):hover
 {
     color: orange;
 }
 
-tr td:nth-child(4)
+.tableraw td:nth-child(4)
 {
     padding-left: 400px;
 }
 
-tr td:nth-child(5)
+.tableraw td:nth-child(5)
 {
     padding-left: -10px;
 } 

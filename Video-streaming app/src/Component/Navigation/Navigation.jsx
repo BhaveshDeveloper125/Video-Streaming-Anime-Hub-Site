@@ -5,8 +5,8 @@ function Navigation()
 {
     return(
         <>
-            <table>
-                <tr>
+            <table className='tbl'>
+                <tr className='tableraw'>
                     <td style={{textAlign:'center'}}>Home</td>
                     <td style={{textAlign:'center'}}>About</td>
                     <td style={{textAlign:'center'}}>Contact</td>

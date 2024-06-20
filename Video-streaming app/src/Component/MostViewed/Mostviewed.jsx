@@ -6,7 +6,7 @@ import goku from '../../assets/goku.jpg'
 import aot from '../../assets/aot.jpg'
 import ms from '../../assets/mystar.webp'
 import gokuu from '../../assets/gokuu.jpg'
-import pookie from '../../assets/pookie.jpg'
+// import pookie from '../../assets/pookie.jpg'
 
 
 function Mostviewed() 
@@ -19,30 +19,63 @@ function Mostviewed()
                         <td>
                             <Card url={deku}/>
                         </td>
+                        <td>
+                            <h1>
+                                MostViewed Title
+                            </h1>
+                        </td>
                     </tr>
+                    <br />
                     <tr>
                         <td>
                             <Card url={goku}/>
                         </td>
+                        <td>
+                            <h1>
+                                MostViewed Title
+                            </h1>
+                        </td>
                     </tr>
+                    <br />
                     <tr>
                         <td>
                             <Card url={aot}/>
                         </td>
+                        <td>
+                            <h1>
+                                MostViewed Title
+                            </h1>
+                        </td>
                     </tr>
+                    <br />
                     <tr>
                         <td>
                             <Card url={ms}/>
                         </td>
+                        <td>
+                            <h1>
+                                MostViewed Title
+                            </h1>
+                        </td>
                     </tr>
+                    <br />
                     <tr>
                         <td>
                             <Card url={gokuu}/>
                         </td>
+                        <td>
+                            <h1>
+                                MostViewed Title
+                            </h1>
+                        </td>
                     </tr>
+                    <br />
                     <tr>
                         <td>
-                            <Card url={pookie}/>
+                            <h2>
+                                <br /><br />
+                                View More
+                            </h2>
                         </td>
                     </tr>
                 </table>
