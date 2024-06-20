@@ -49,6 +49,11 @@
     animation: changePositions 0.5s ease-in-out ;
 }*/
 
+.lightblackbg
+{
+    background-color: rgba(0, 0, 0, 0.300);
+}
+
 h1
 {
     color: aliceblue;
@@ -103,3 +108,4 @@ h1
     color: rgb(130, 103, 35);
     text-align: center;
 }
+

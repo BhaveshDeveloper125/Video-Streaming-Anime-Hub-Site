@@ -41,7 +41,7 @@ function Cards()
                 <Card url={goku} title={'Dragon Ball Z'}/>
                 <Card url={ichigo} title={'Bleach'}/>
             </div>
-
+            
             <div className="buttonSection">
                 <button className="previous" onClick={PreviousScrollChanger}> &lt; </button>
                 <button className="nextt" onClick={NextScrollChanger}> &gt; </button>

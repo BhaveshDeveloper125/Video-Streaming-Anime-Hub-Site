@@ -19,3 +19,24 @@ body , *
     background-attachment: fixed;
     display: flex;
 }
+
+.thirdbg
+{
+    background-image: url(./src/assets/pookie.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.firstlite
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.thirdlite
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.500);
+}

@@ -48,3 +48,9 @@ table tr td h2:hover
     left: 25%;
 }
 
+.changingbg
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.500);
+}
