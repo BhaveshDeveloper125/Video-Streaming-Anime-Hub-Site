@@ -10,17 +10,16 @@ function Navigation()
             <table className='tbl'>
                 <tr className='tableraw'>
                     <td style={{textAlign:'center'}}>
-                            Home
+                        {/* <Link to="about">About</Link> */}
+                        <a href="/">Home</a>
                     </td>
                     <td style={{textAlign:'center'}}>
-                        <Link to="about">
-                            About
-                        </Link>
+                        {/* <Link to="about">About</Link> */}
+                        <a href="about">About</a>
                     </td>
                     <td style={{textAlign:'center'}}>
-                        <Link to="conatctus">
-                            Contact
-                        </Link>
+                        {/* <Link to="conatctus">Contact</Link> */}
+                        <a href="conatctus">Contact</a>
                     </td>
                     <td>
                         <form action="">

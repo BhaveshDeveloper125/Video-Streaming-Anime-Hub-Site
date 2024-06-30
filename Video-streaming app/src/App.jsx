@@ -17,12 +17,12 @@ function App()
         <div className="firstlite">
         <Slider/>
         <Navigation/>
-        {/* <Share/>
-        <Cards/> */}
+        <Share/>
+        <Cards/>
         </div>
       </div>
 
-      {/* <div className="secondbg">
+      <div className="secondbg">
         <Mostviewed/>
       </div>
 
@@ -30,7 +30,7 @@ function App()
         <div className="thirdlite">
           <Footer/>
         </div>
-      </div> */}
+      </div>
     </>
   )
 }
