@@ -36,13 +36,13 @@ function ContactUs()
 
                         </textarea><br /><br /><br /><br />
 
-                        <input type="submit" value="Submit" id='submit_button'/>
+                        <input type="submit" value="Submit" id='submit_button'/>    
 
                     </form>
                 </div> 
 
                 <br /><br /><br />
-                
+
                 <Footer/>
             </div>
         </div>
