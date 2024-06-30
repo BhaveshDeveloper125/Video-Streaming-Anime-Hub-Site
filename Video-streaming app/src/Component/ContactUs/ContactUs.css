@@ -1,0 +1,93 @@
+.contactContainer
+{
+    height: fit-content;
+    width: 100%;
+    background-image: url(../../assets/wallpaper.jpg);
+    object-fit: cover;
+    border: 2px solid black;
+    margin-top: 10%;
+    color: white;
+    overflow: hidden;
+}
+
+.CUS
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+}
+
+.CUS2
+{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact_form
+{
+    display: inline-block;
+    margin-left: 25%;
+    
+}
+
+#email , #subject , #message
+{
+    height: 50px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.300);
+    border-radius: 7px;
+    font-size: 20px;
+    
+}
+
+#message
+{
+    height: 200px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.300);
+    border-radius: 7px;
+    font-size: 20px;
+    
+}
+
+#email::placeholder , #subject::placeholder , #message::placeholder
+{
+    font-size: 16px;
+    color: grey;
+}
+
+textarea
+{
+    resize: vertical;
+}
+
+label
+{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#submit_button
+{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#submit_button:hover 
+{
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
