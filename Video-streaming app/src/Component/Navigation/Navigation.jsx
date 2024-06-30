@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navigation.css'
+import { Link } from 'react-router-dom';
+
 
 function Navigation() 
 {
@@ -7,9 +9,24 @@ function Navigation()
         <>
             <table className='tbl'>
                 <tr className='tableraw'>
-                    <td style={{textAlign:'center'}}>Home</td>
-                    <td style={{textAlign:'center'}}>About</td>
-                    <td style={{textAlign:'center'}}>Contact</td>
+                    <td style={{textAlign:'center'}}>
+                            Home
+                    </td>
+                    <td style={{textAlign:'center'}}>
+                        {/* <Link to="/about"> */}
+                            About
+                        {/* </Link> */}
+                    </td>
+                    <td style={{textAlign:'center'}}>
+                        {/* <Link to="/conatctus"> */}
+                            Contact
+                        {/* </Link> */}
+                    </td>
+                    <td style={{textAlign:'center'}}>
+                        <Link to={'/conatctus'}>
+                            Contact
+                        </Link>
+                    </td>
                     <td>
                         <form action="">
                             <input type="search" name="" id="" placeholder='Serch here...' />
