@@ -13,17 +13,12 @@ function Navigation()
                             Home
                     </td>
                     <td style={{textAlign:'center'}}>
-                        {/* <Link to="/about"> */}
+                        <Link to="about">
                             About
-                        {/* </Link> */}
+                        </Link>
                     </td>
                     <td style={{textAlign:'center'}}>
-                        {/* <Link to="/conatctus"> */}
-                            Contact
-                        {/* </Link> */}
-                    </td>
-                    <td style={{textAlign:'center'}}>
-                        <Link to={'/conatctus'}>
+                        <Link to="conatctus">
                             Contact
                         </Link>
                     </td>
