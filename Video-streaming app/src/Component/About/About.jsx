@@ -6,9 +6,23 @@ function About()
 {
     return(
         <div>
-            <div className="crunchyimg">
-                <img src={crunchy} alt="" id='crunchy'/>
+            <div className="imgcollecion">
+                <img src={crunchy} alt="" />
             </div>
+
+            <div className="textcontainer">
+
+                <br /><br /><br />
+
+            <h1 className='text'>
+                Anime hub champions the art and culture of Anime to a <br /> passionate community of fans around the world.
+            </h1>
+
+            </div>
+
+            <button className='hiring'>
+                We're Hiring
+            </button>
         </div>
     );
 }
