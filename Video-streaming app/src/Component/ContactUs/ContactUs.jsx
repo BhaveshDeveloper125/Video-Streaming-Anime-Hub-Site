@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer'
 function ContactUs() 
 {
     return(
-        <div className='ccc'>
+        <div className='ccc' style={{backgroundColor:'blue'}}> <br /><br /><br /><br /><br />
             <div className="contactContainer">
                 <h1 className='CUS'>
                     Contact Us

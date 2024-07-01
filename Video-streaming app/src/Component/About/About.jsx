@@ -1,13 +1,15 @@
 import React from 'react'
+import './About.css'
+import crunchy from '../../assets/crunchy.jpg'
 
 function About() 
 {
     return(
-        <>
-            <h1 style={{color:'black' , marginTop:'250px'}}>
-                Hello from About page
-            </h1>
-        </>
+        <div>
+            <div className="crunchyimg">
+                <img src={crunchy} alt="" id='crunchy'/>
+            </div>
+        </div>
     );
 }
 

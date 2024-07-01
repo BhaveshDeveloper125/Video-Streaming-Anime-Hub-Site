@@ -5,7 +5,7 @@
     background-image: url(../../assets/wallpaper.jpg);
     object-fit: cover;
     border: 2px solid black;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     color: white;
     overflow: hidden;
 }
