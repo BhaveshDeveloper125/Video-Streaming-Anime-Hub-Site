@@ -17,11 +17,109 @@
 
 .hiring
 {
-    height: 100px;
+    height: 70px;
     width: 200px;
     background-color: orange;
+    border-radius: 10px;
     color: aliceblue;
+    border: none;
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-left: 40%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.hiring:hover 
+{
+    background-color: aliceblue;
+    border-radius: 0px;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.activity_container1
+{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+
+.activity_container1 img 
+{
+    margin-left: 10%;
+}
+
+.activity_container2
+{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+
+.activity_container2 img 
+{
+    margin-left: 10%;
+}
+
+.straming_events_text
+{
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid red; */
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+#stream_text
+{
+    margin-left: 20%;
+}
+
+#event_text
+{
+    margin-left: 35%;
+}
+
+#theater_text
+{
+    /* border: 2px solid red; */
+    /* margin-left: 10%;  marging_img */
+    display: inline;
+    /* text-align: center; */
+}
+
+#merch_text
+{
+    margin-left: 12%;
+}
+
+.marging_img
+{
+    margin-left: 10%;
+}
+
+#manga_text
+{
+    width: fit-content;
+    margin-left: 15%;
+}
+
+#mobilegame_text
+{
+    width: fit-content;
+    margin-left: 10%;
+}
+
+#link_color
+{
+    color: aliceblue;
+}
+
+#link_color:hover 
+{
+    color: orange;
 }
